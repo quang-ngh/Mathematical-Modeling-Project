@@ -1,4 +1,4 @@
-#Petri Nets Simulation 
+## Petri Nets Simulation 
 
 ### Requirement 
 Python >= 3.8 
