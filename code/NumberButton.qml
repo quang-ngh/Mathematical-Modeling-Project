@@ -8,12 +8,12 @@ Button {
     property color colorDefault: "#7f7f7f"
     property color colorMouseover: "#1f1f1f"
     property color colorPressed: "#00f070"
-    property bool specialistCheck: false
-    property bool patientCheck: false
-    property bool busyCheck: false
-    property bool docuCheck: false
-    property bool insideCheck: false
-    property bool doneCheck: false
+    property bool specialistCheck: true
+    property bool patientCheck: true
+    property bool busyCheck: true
+    property bool docuCheck: true
+    property bool insideCheck: true
+    property bool doneCheck: true
     property int number: 0
 
     QtObject{

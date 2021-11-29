@@ -1,3 +1,10 @@
 {
-    "files": ["main.py", "main.qml"]
+    "files": ["main.py",
+    "main.qml",
+    "NumberButton.qml",
+    "PetriNet1.qml",
+    "PetriNet2.qml",
+    "PetriNet3.qml"
+
+    ]
 }
