@@ -40,5 +40,13 @@ Install PySide2: Install command same as Window.
 ### Run
 Clone the repository 
 ```sh
-git clone 
+git clone https://github.com/hqn-cs/Petri_nets.git
+```
+Make sure that you are in right directory in your local
+```sh 
+python main.py
+```
+or 
+```sh
+python3 main.py
 ```
