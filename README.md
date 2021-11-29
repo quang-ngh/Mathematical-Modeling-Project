@@ -6,25 +6,10 @@ Python >= 3.8
 PySide2
 \
 pip3
-
+Verified on Linux (Ubuntu 20.04)
 ### Setup 
 Install Python3 in your local
 
-#### Windows
-You need to make sure that your local has pip, you can check pip version if it has been installed. 
-```sh
-pip --version
-```
-If you haven't installed pip yet, install it before moving to next step.
-\
-Install PySide2
-```sh
-python -m pip install PySide2
-```
-or
-```sh
-python3 -m pip install PySide2
-```
 #### Linux
 Check the version of pip
 ```sh
