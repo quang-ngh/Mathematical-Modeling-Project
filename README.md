@@ -48,4 +48,5 @@ or
 ```sh
 python3 main.py
 ```
-![petri](https://user-images.githubusercontent.com/78084202/143808761-2869530b-d2a0-475a-beb1-83aa68066a04.png)
+![exam](https://user-images.githubusercontent.com/78084202/143877137-ecad9bfe-0fa5-4748-a1e5-a1ee4e594944.png)
+
