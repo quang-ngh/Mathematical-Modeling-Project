@@ -42,7 +42,7 @@ Clone the repository
 ```sh
 git clone https://github.com/hqn-cs/Petri_nets.git
 ```
-Make sure that you are in right directory in your local. Move to the "code" 
+Make sure that you are in right directory in your local. Move to the "code" directory
 ```sh 
 python main.py
 ```
