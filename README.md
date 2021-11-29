@@ -50,3 +50,4 @@ or
 ```sh
 python3 main.py
 ```
+![petri](https://user-images.githubusercontent.com/78084202/143808761-2869530b-d2a0-475a-beb1-83aa68066a04.png)
