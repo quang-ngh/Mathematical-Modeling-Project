@@ -8,12 +8,12 @@ PySide2
 ### Setup 
 Install Python3 in your local
 
-#### Window
+#### Windows
 You need to make sure that your local has pip, you can check pip version if it has been installed. 
 ```sh
 pip --version
 ```
-if you haven't installed, then install pip before move to next step.
+If you haven't installed pip yet, install it before moving to next step.
 \
 Install PySide2
 ```sh
@@ -28,21 +28,21 @@ Check the version of pip
 ```sh
 pip --version
 ```
-if you haven't installed, then installed it.
+If you haven't installed pip yet, install it before moving to next step.
 ```sh
-sudo apt update --upgrade
+sudo apt update && sudo apt upgrade
 ```
 ```sh
 sudo apt install pip
 ```
-Install PySide2: Install command same as Window.
+Install PySide2: Install command is the same as Windows.
 
 ### Run
 Clone the repository 
 ```sh
 git clone https://github.com/hqn-cs/Petri_nets.git
 ```
-Make sure that you are in right directory in your local. Move to the "code" directory
+Make sure that you are in right directory in your local, then move to the "code" directory before running the following command 
 ```sh 
 python main.py
 ```
