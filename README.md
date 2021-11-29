@@ -4,6 +4,8 @@
 Python >= 3.8 
 \
 PySide2
+\
+pip3
 
 ### Setup 
 Install Python3 in your local
