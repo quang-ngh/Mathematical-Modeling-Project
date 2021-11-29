@@ -75,7 +75,7 @@ Item{
             Image {
                 source: "home.png"
                 anchors.verticalCenterOffset: 13
-                anchors.horizontalCenterOffset: 326
+                anchors.horizontalCenterOffset: 360
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
                 fillMode: Image.PreserveAspectFit
@@ -99,7 +99,7 @@ Item{
             Image {
                 source: "info.png"
                 anchors.topMargin: 18
-                anchors.leftMargin: 439
+                anchors.leftMargin: 491
                 anchors.left: parent.left
                 anchors.top: parent.top
                 fillMode: Image.PreserveAspectFit

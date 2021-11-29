@@ -76,7 +76,10 @@ class Petri_Nets:
             state.fire()
             tokens = [str(p.tokens) for p in self.set_of_places]
             print(" - ".join(tokens))
-
+    
+    def reset(self):
+        for item in self.set_of_places:
+            item.tokens = 0
 def main():
     app = QGuiApplication(sys.argv)
     engine = QQmlApplicationEngine()
@@ -136,7 +139,7 @@ def main():
     start = Transition([outArc(inside, 1), outArc(busy, 1)], [inArc(wait,1), inArc(free,1)], "start")
     change = Transition([outArc(done,1), outArc(docu, 1)], [inArc(inside,1), inArc(busy,1)], "change")
     end = Transition([outArc(free, 1)], [inArc(docu,1)], "end")
-
+    net3 = Petri_Nets([start, change, end], [wait, inside, busy, docu, done, free])
     #Link from Python to QML file
     #For places
     engine.rootContext().setContextProperty("pfree", free)
@@ -146,7 +149,7 @@ def main():
     engine.rootContext().setContextProperty("pwait", wait)
     engine.rootContext().setContextProperty("pinside", inside)
     engine.rootContext().setContextProperty("pdone", done)
-
+    engine.rootContext().setContextProperty("tnet3", net3)
     #For transitions
     engine.rootContext().setContextProperty("tstart", start)
     engine.rootContext().setContextProperty("tchange", change)

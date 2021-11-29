@@ -176,7 +176,6 @@ Item{
         length: 75
         rotation: 270
     }
-
     Connections
     {
         target: pfree
