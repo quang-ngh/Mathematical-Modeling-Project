@@ -24,3 +24,21 @@ or
 python3 -m pip install PySide2
 ```
 #### Linux
+Check the version of pip
+```sh
+pip --version
+```
+if you haven't installed, then installed it.
+```sh
+sudo apt update --upgrade
+```
+```sh
+sudo apt install pip
+```
+Install PySide2: Install command same as Window.
+
+### Run
+Clone the repository 
+```sh
+git clone 
+```
