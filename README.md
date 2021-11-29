@@ -35,8 +35,6 @@ sudo apt update --upgrade
 ```sh
 sudo apt install pip
 ```
-Install PySide2: Install command same as Window.
-
 ### Run
 Clone the repository 
 ```sh
