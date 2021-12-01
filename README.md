@@ -7,14 +7,13 @@ PySide2
 \
 Verified on Linux (Ubuntu 20.04)
 ### Setup 
-Install Python3 in your local
-\
 You need to make sure that your local has pip, you can check pip version if it has been installed. 
 ```sh
 pip --version
 ```
-if you haven't installed, then install pip before move to next step.
+If you haven't installed pip yet, then install it.
 ```sh
+sudo apt update --upgrade
 sudo add-apt-repository universe
 sudo apt install python3-pip
 ```
