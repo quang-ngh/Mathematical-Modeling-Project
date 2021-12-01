@@ -25,7 +25,6 @@ or
 ```sh
 python3 -m pip install PySide2
 ```
-#### Linux
 Install PyQt5
 ```sh
 sudo apt update --upgrade
