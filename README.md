@@ -33,7 +33,8 @@ if you haven't installed, then installed it.
 sudo apt update --upgrade
 ```
 ```sh
-sudo apt install pip
+sudo add-apt-repository universe
+sudo apt install python3-pip
 ```
 ### Run
 Clone the repository 
