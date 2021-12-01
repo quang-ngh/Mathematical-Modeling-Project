@@ -15,6 +15,7 @@ pip --version
 ```
 if you haven't installed, then install pip before move to next step.
 ```sh
+sudo add-apt-repository universe
 sudo apt install python3-pip
 ```
 Install PySide2
@@ -31,8 +32,7 @@ Install PyQt5
 sudo apt update --upgrade
 ```
 ```sh
-sudo add-apt-repository universe
-sudo apt install python3-pip
+sudo apt-get install python3-pyqt5
 ```
 ### Run
 Clone the repository 
