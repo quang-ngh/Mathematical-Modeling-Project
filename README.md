@@ -7,14 +7,18 @@ PySide2
 \
 Verified on Linux (Ubuntu 20.04)
 ### Setup 
-Install Python3 in your local
-\
+
 You need to make sure that your local has pip, you can check pip version if it has been installed. 
+Check the version of pip
 ```sh
 pip --version
 ```
-if you haven't installed, then install pip before move to next step.
+If you haven't installed it yet, then install it.
 ```sh
+sudo apt update --upgrade
+```
+```sh
+sudo add-apt-repository universe
 sudo apt install python3-pip
 ```
 Install PySide2
@@ -24,16 +28,6 @@ python -m pip install PySide2
 or
 ```sh
 python3 -m pip install PySide2
-```
-#### Linux
-Install PyQt5
-```sh
-sudo apt update --upgrade
-```
-```sh
-sudo add-apt-repository universe
-sudo apt install python3-pip
-```
 ### Run
 Clone the repository 
 ```sh
