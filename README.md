@@ -26,16 +26,13 @@ or
 python3 -m pip install PySide2
 ```
 #### Linux
-Check the version of pip
-```sh
-pip --version
-```
-if you haven't installed, then installed it.
+Install PyQt5
 ```sh
 sudo apt update --upgrade
 ```
 ```sh
 sudo add-apt-repository universe
+sudo apt install python3-pip
 ```
 ### Run
 Clone the repository 
