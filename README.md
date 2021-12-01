@@ -7,17 +7,13 @@ PySide2
 \
 Verified on Linux (Ubuntu 20.04)
 ### Setup 
-
 You need to make sure that your local has pip, you can check pip version if it has been installed. 
-Check the version of pip
 ```sh
 pip --version
 ```
-If you haven't installed it yet, then install it.
+If you haven't installed pip yet, then install it.
 ```sh
 sudo apt update --upgrade
-```
-```sh
 sudo add-apt-repository universe
 sudo apt install python3-pip
 ```
@@ -28,6 +24,7 @@ python -m pip install PySide2
 or
 ```sh
 python3 -m pip install PySide2
+```
 ### Run
 Clone the repository 
 ```sh
