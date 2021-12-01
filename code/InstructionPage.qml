@@ -40,7 +40,7 @@ Item{
             width: 566
             height: 96
             color: "#53b16d"
-            text: "Simple guild on using this application"
+            text: "Simple guide on using this application"
             font.pixelSize: 30
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
