@@ -14,7 +14,9 @@ You need to make sure that your local has pip, you can check pip version if it h
 pip --version
 ```
 if you haven't installed, then install pip before move to next step.
-\
+```sh
+sudo apt install python3-pip
+```
 Install PySide2
 ```sh
 python -m pip install PySide2
@@ -34,7 +36,6 @@ sudo apt update --upgrade
 ```
 ```sh
 sudo add-apt-repository universe
-sudo apt install python3-pip
 ```
 ### Run
 Clone the repository 
