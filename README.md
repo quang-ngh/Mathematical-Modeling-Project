@@ -1,3 +1,4 @@
+A GUI is developed with Python and Qt5 to visualize the petri net in modeling a discrete system.
 ## Petri Nets Simulation 
 
 ### Requirement 
